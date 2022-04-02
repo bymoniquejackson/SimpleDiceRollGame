@@ -1,0 +1,51 @@
+body{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-image: url("table.jpg");
+    background-size :cover;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    width: 100%;
+    margin :auto;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(192, 156, 39);
+    background-color: rgb(8, 22, 94);
+    border-radius: 100px;
+
+
+}
+
+.diceArea{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+p {
+    font-size: 20px;
+/* border: 1px solid rgb(239, 238, 238);
+border-radius: 100%; */
+}
+
+img {
+    width: 300px;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width:1000px){
+    body {
+        flex-direction:unset;
+    }
+    }
